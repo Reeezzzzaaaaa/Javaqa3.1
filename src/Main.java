@@ -1,11 +1,10 @@
 public class Main {
     public static void main(String[] args) {
 
-        int prise = 70531;              // Цена авиабилета в рублях
-        int miles;                      // Начисленные мили
+        int prise = 70_531;             // Цена авиабилета в рублях
         int rubles = 20;                // Количество рублей необходимое для одной мили
-        int x = (miles = prise / rubles); // формула для рассчета бонуса
+        int miles = prise / rubles;     // Начисленные мили
 
-        System.out.println(x + " - Начилено миль за покупку");
+        System.out.println(miles + " - Начилено миль за покупку");
     }
 }
